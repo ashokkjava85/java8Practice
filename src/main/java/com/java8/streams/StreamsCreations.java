@@ -15,7 +15,10 @@ public class StreamsCreations {
 		List<String> list2 = List.of("one", "two", "three", "Four", "Five", "Six");
 		Stream<String> streamofStrings2 = list2.stream(); // Sequention Stream
 		Stream<String> streamofParrllel2 = list2.parallelStream(); // Parllel Stream
-		// 3.
+		
+		
+		
+		// 3. Array using Arrays.stream()
 
 		/*
 		 * // find out all the even numbers exist in the list using Stream functions
